@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+.navbar img {
+  height: 20px;
+  width: 20px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  padding: 20px 0;
+  overflow-y: auto;
+  display: none;
+}
+
+.sidebar ul {
+ list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.sidebar ul li {
+  margin: 4px 0 0 2px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  /* padding: 10px 20px; */
+}
+.sidebar ul li a img{
+
+}
+.sidebar ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+.sidebar img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: -20px;
+}
+.container {
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.div {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.267);
+  display: none;
+}
